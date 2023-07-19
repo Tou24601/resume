@@ -1,0 +1,58 @@
+{
+    "projects-english": [
+        {
+            "name": "Responsive movie search app using The Movie Database API",
+            "language": "Vanilla TypeScript/Bootstrap",
+            "gitHub": "https://github.com/Tou24601/TS-MOVIE-BASE-SEARCH", 
+            "preview": "https://moviesearch-jk.netlify.app/"
+        },
+        {
+            "name": "Responsive budget app",
+            "language": "React.js/Bootstrap",
+            "gitHub": "https://github.com/Tou24601/REACT-PROJEKT2", 
+            "preview": "https://jkolakowska-react.netlify.app/"
+        },
+        {
+            "name": "Responsive app based on a Figma project",
+            "language": "React.js",
+            "gitHub": "https://github.com/Tou24601/REACT-PROJEKT1", 
+            "preview": "https://joannakolakowska-react2.netlify.app/"
+        },
+        {
+            "name": "Website based on a Figma project",
+            "language": "HTML5/CSS",
+            "gitHub": "https://github.com/Tou24601/HTML-CSS-PROJEKT3", 
+            "preview": "https://projektbonusowy-joannakolakowska.netlify.app/"
+        },
+        {
+            "name": "Budget planning website",
+            "language": "Vanilla JavaScript/Bootstrap",
+            "gitHub": "https://github.com/Tou24601/JS-PROJEKT1", 
+            "preview": "https://budzet-jkolakowska.netlify.app/"
+        },
+        {
+            "name": "Currency calculator using NBP API",
+            "language": "Vanilla JavaScript/Bootstrap",
+            "gitHub": "https://github.com/Tou24601/JS-PROJEKT2", 
+            "preview": "https://przelicznikwalut-jkolakowska.netlify.app/"
+        },
+        {
+            "name": "Responsive website based on a Figma project",
+            "language": "HTML5/CSS",
+            "gitHub": "https://github.com/Tou24601/HTML-CSS-PROJEKT2", 
+            "preview": "https://projekt2jk.netlify.app/"
+        },
+        {
+            "name": "Books catalog using Google Books API",
+            "language": "React.js/Bootstrap",
+            "gitHub": "https://github.com/Tou24601/recruitment-task1", 
+            "preview": "https://jkolakowska-booksproject.netlify.app/"
+        },
+        {
+            "name": "Simple animation",
+            "language": "React.js",
+            "gitHub": "https://github.com/Tou24601/klc", 
+            "preview": "https://krzysiulu.netlify.app/"
+        }
+    ]
+}

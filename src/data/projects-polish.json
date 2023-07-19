@@ -1,0 +1,58 @@
+{
+    "projects-polish": [
+        {
+            "name": "Responsywna wyszukiwarka filmów na podstawie The Movie Database API",
+            "language": "Vanilla TypeScript/Bootstrap",
+            "gitHub": "https://github.com/Tou24601/TS-MOVIE-BASE-SEARCH", 
+            "preview": "https://moviesearch-jk.netlify.app/"
+        },
+        {
+            "name": "Responsywna aplikacja do tworzenia budżetu",
+            "language": "React.js/Bootstrap",
+            "gitHub": "https://github.com/Tou24601/REACT-PROJEKT2", 
+            "preview": "https://jkolakowska-react.netlify.app/"
+        },
+        {
+            "name": "Responsywna aplikacja na podstawie projektu w Figmie",
+            "language": "React.js",
+            "gitHub": "https://github.com/Tou24601/REACT-PROJEKT1", 
+            "preview": "https://joannakolakowska-react2.netlify.app/"
+        },
+        {
+            "name": "Strona na podstawie projektu w Figmie",
+            "language": "HTML5/CSS",
+            "gitHub": "https://github.com/Tou24601/HTML-CSS-PROJEKT3", 
+            "preview": "https://projektbonusowy-joannakolakowska.netlify.app/"
+        },
+        {
+            "name": "Strona do tworzenia budżetu",
+            "language": "Vanilla JavaScript/Bootstrap",
+            "gitHub": "https://github.com/Tou24601/JS-PROJEKT1", 
+            "preview": "https://budzet-jkolakowska.netlify.app/"
+        },
+        {
+            "name": "Przelicznik walut na podstawie NBP API",
+            "language": "Vanilla JavaScript/Bootstrap",
+            "gitHub": "https://github.com/Tou24601/JS-PROJEKT2", 
+            "preview": "https://przelicznikwalut-jkolakowska.netlify.app/"
+        },
+        {
+            "name": "Responsywna strona na podstawie projektu w Figmie",
+            "language": "HTML5/CSS",
+            "gitHub": "https://github.com/Tou24601/HTML-CSS-PROJEKT2", 
+            "preview": "https://projekt2jk.netlify.app/"
+        },
+        {
+            "name": "Katalog na podstawie Google Books API",
+            "language": "React.js/Bootstrap",
+            "gitHub": "https://github.com/Tou24601/recruitment-task1", 
+            "preview": "https://jkolakowska-booksproject.netlify.app/"
+        },
+        {
+            "name": "Animacja",
+            "language": "React.js",
+            "gitHub": "https://github.com/Tou24601/klc", 
+            "preview": "https://krzysiulu.netlify.app/"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "experience-english": [
+        {
+            "company": "WYDAWNICTWO BAUER SP. Z O.O. SP. J.",
+            "timePeriod": "08.2018-...", 
+            "jobTitle": "editor",
+            "description": "Writing articles for print and online, researching, selecting stock images (Getty Images, 123RF, Forum etc.) to accompany written articles, managing CMS, conducting interviews, cooperating with graphic designers and other specialists"
+        },
+        {
+            "company": "POLSKA PRESS GRUPA SP. Z O.O.",
+            "timePeriod": "05.2018-08.2018", 
+            "jobTitle": "junior editor",
+            "description": "Writing articles for online, researching, selecting stock images to accompany written articles, managing CMS, managing official social media"
+        },
+        {
+            "company": "AKPA POLSKA PRESS SP. Z O.O.",
+            "timePeriod": "07.2016-05.2018", 
+            "jobTitle": "editor",
+            "description": "Managing database, writing articles for print"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background-color: rgb(77, 164, 224);
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 2vh;
+  position: fixed;
+  top: 0px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.light {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
