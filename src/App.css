@@ -1,28 +1,50 @@
 body {
   text-align: center;
-  background-color: rgb(77, 164, 224);
+  background-color: rgb(51, 119, 163);
   color: #ffffff;
   font-family: 'Lato', sans-serif;
+  text-align: left;
 }
 
 .header {
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.5);
-  line-height: 2vh;
+  height: 6vh;
+  line-height: 6vh;
+  background-color: rgba(10, 39, 59, 0.3);
+  transition: 0.5s;
   position: fixed;
   top: 0px;
+}
+
+.header:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav ul, .contact-list {
+  list-style-type: none;
+
 }
 
 .pointer {
   cursor: pointer;
 }
 
-.light {
-  font-weight: normal;
+.contactHolder {
+  width: 25vw;
+  position: fixed;
+  top: 15vh;
+  right: 0;
 }
 
-.bold {
-  font-weight: bold;
+.textHolder {
+  margin-top: 35vh;
+  margin-left: 2.5vw;
+}
+
+.image {
+  height: 35vh;
+  border-radius: 5%;
+  box-shadow: 13px 16px 24px 0px rgba(25, 33, 113, 0.6);
 }
 
 

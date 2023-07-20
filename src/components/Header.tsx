@@ -1,3 +1,4 @@
+import NavBar from './NavBar';
 import LangToggle from './LangToggle';
 
 interface Props {
@@ -6,10 +7,11 @@ interface Props {
         }
 
 const Header = ({ language, setLanguage }: Props) => {
-    return <div className="header d-flex justify-content-between">
-        <></>
+    return <header className="header">
+        <div className='container d-flex flex-row justify-content-between'>
+        <NavBar language={language} />
         <LangToggle language={language} setLanguage={setLanguage} />
-    </div>
+        </div></header>
 }
 
 export default Header

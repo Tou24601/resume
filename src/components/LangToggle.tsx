@@ -5,18 +5,18 @@ interface Props {
 
 const LangToggle = ({ language, setLanguage }: Props) => {
   const switchLang = (e: any) => {
-    document.getElementById(language)?.classList.replace("bold", "light")
-    document.getElementById(e.target.id)?.classList.replace("light", "bold")
+    document.getElementById(language)?.classList.replace("fw-bolder", "fw-normal")
+    document.getElementById(e.target.id)?.classList.replace("fw-normal", "fw-bolder")
     setLanguage(e.target.id);
   };
 
   return (
     <p id="langToggle">
-      <span id="polish" className="light pointer" onClick={(e) => switchLang(e)}>
+      <span id="polish" className="fw-normal pointer" onClick={(e) => switchLang(e)}>
         POL
       </span>
       /
-      <span id="english" className="bold pointer" onClick={(e) => switchLang(e)}>
+      <span id="english" className="fw-bolder pointer" onClick={(e) => switchLang(e)}>
         ENG
       </span>
     </p>

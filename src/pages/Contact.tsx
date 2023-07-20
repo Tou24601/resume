@@ -1,4 +1,8 @@
-const Contact = () => {
+interface Props {
+    language: string;
+        }
+
+const Contact = ({language} : Props) => {
     return <div></div>
 }
 
