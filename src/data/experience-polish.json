@@ -1,22 +1,22 @@
 {
-    "experience": [
-        {
-            "company": "WYDAWNICTWO BAUER SP. Z O.O. SP. J.",
-            "timePeriod": "08.2018-...", 
-            "jobTitle": "redaktor",
-            "description": "obsługa CMS oraz programów DTP, wyszukiwanie interesujących tematów, obsługa banków zdjęć (m.in. Getty Images, 123RF, Forum), tworzenie treści online i do printu, współpraca z działem graficznym i działem fotoedycji, wywiady z gwiazdami z Polski i innych krajów, udział w konferencjach i wydarzeniach branżowych"
-        },
-        {
-            "company": "POLSKA PRESS GRUPA SP. Z O.O.",
-            "timePeriod": "05.2018-08.2018", 
-            "jobTitle": "młodszy specjalista ds. treści online",
-            "description": "obsługa CMS, prowadzenie firmowych fanpage'ów na Facebooku, wyszukiwaniu materiałów w agencjach prasowych oraz w bankach zdjęć"
-        },
-        {
-            "company": "AKPA POLSKA PRESS SP. Z O.O.",
-            "timePeriod": "07.2016-05.2018", 
-            "jobTitle": "redaktor",
-            "description": "obsługa baz danych, redakcja tekstów językowych, prace biurowe"
-        }
-    ]
+  "experience": [
+    {
+      "company": "WYDAWNICTWO BAUER SP. Z O.O. SP. J.",
+      "timePeriod": "08.2018-...",
+      "jobTitle": "redaktor",
+      "description": "obsługa CMS oraz programów DTP, wyszukiwanie interesujących tematów, obsługa banków zdjęć (m.in. Getty Images, 123RF, Forum), tworzenie treści online i do printu, współpraca z działem graficznym i działem fotoedycji, wywiady z gwiazdami z Polski i innych krajów, udział w konferencjach i wydarzeniach branżowych"
+    },
+    {
+      "company": "POLSKA PRESS GRUPA SP. Z O.O.",
+      "timePeriod": "05.2018-08.2018",
+      "jobTitle": "młodszy specjalista ds. treści online",
+      "description": "obsługa CMS, prowadzenie firmowych fanpage'ów na Facebooku, wyszukiwaniu materiałów w agencjach prasowych oraz w bankach zdjęć"
+    },
+    {
+      "company": "AKPA POLSKA PRESS SP. Z O.O.",
+      "timePeriod": "07.2016-05.2018",
+      "jobTitle": "redaktor",
+      "description": "obsługa baz danych, redakcja tekstów językowych, prace biurowe"
+    }
+  ]
 }

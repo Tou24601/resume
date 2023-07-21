@@ -1,18 +1,18 @@
 {
     "education": [
         {
-            "school": "FUTURE COLLARS",
+            "school": "Future Collars",
             "timePeriod": "01.2023-04.2023", 
             "course": "JAVASCRIPT & REACT",
             "description": "JavaScript ES Next, asynchrony, communication with the backend, debugging methods, destructuring, scope; React 18.x, Functional and class components, props, state, routing (SPA), Hooks; best coding practices, teamwork strategies, task planning, task duration estimation",
-            "certificate": "./assets/Certificate 2023_4_54 - Joanna Kołakowska.pdf"
+            "certificate": "./documents/Certificate 2023_4_54 - Joanna Kołakowska.pdf"
         },
         {
-            "school": "FUTURE COLLARS",
+            "school": "Future Collars",
             "timePeriod": "12.2022-01.2023", 
             "course": "HTML/CSS",
             "description": "HTML 5.x; CSS3; CSS animation basics; RWD (Fluid layout, @media, mobile-first); BEM, Bootstrap",
-            "certificate": "./assets/Certificate 2023_1_32 - Joanna Kołakowska.pdf"
+            "certificate": "./documents/Certificate 2023_1_32 - Joanna Kołakowska.pdf"
         },
         {
             "school": "Udacity",
@@ -24,7 +24,7 @@
             "school": "Stanford Online",
             "timePeriod": "2016", 
             "course": "Writing in the Sciences",
-            "certificate": "./assets/Certyfikat Writing in the Sciences.pdf"
+            "certificate": "./documents/Certyfikat Writing in the Sciences.pdf"
         },
         {
             "school": "University of Warsaw",

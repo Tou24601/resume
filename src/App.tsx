@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Education from "./pages/Education";
 import Experience from "./pages/Experience";
+import Publications from "./pages/Publications";
 import Contact from "./pages/Contact";
 import "./App.css";
 
@@ -30,6 +31,7 @@ function App() {
         <Portfolio language={language} />
         <Education language={language} />
         <Experience language={language} />
+        <Publications language={language} />
         <Contact language={language} />
         </div>
         </div>

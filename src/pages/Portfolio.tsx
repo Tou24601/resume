@@ -5,26 +5,28 @@ interface Props {
 }
 
 const Portfolio = ({ language }: Props) => {
-  /* const getPortfolioData = fetch(`../data/projects-${language}.json`)
-    .then((resp) => resp.json())
-    .then((resp) => console.log(resp))
-    .catch((err) => console.log(err))
-        /*= fetch(url)
-  .then((resp) => resp.json())
-  .catch((err) => console.log(err));*/
-
-  //render text
   const getPortfolioMainText = () => {
     let data = require(`../data/projects-${language}.json`);
-    console.log(data.projects);
     return (
       <ol>
         {data.projects.map((item: any) => (
-          <li key={data.projects.indexOf(item)} className="mb-1">
-            <span className="">{item.name} ({item.language})</span>
-            /
-            <a href={item.gitHub} className="text-reset text-decoration-none fw-bold">GitHub</a>/ 
-            <a href={item.preview} className="text-reset text-decoration-none  fw-bold">{language === "english" ? "PreView" : "Podgląd"}</a>
+          <li key={data.projects.indexOf(item)} className="mb-3">
+              {item.name} ({item.language})
+            <br />
+            <a
+              href={item.gitHub}
+              className="text-reset fw-bold"
+              target="blank"
+            >
+              GitHub
+            </a>
+            /&nbsp;
+            <a
+              href={item.preview}
+              className="text-reset fw-bold" target="blank"
+            >
+              {language === "english" ? "PreView" : "Podgląd"}
+            </a>
           </li>
         ))}
       </ol>

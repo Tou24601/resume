@@ -1,4 +1,3 @@
-import { disconnect } from "process";
 import IMG from "../assets/frontend.jpg";
 
 interface Props {
@@ -7,11 +6,11 @@ interface Props {
 
 const ContactHolder = ({ language }: Props) => {
   return (
-    <div className="container position-relative">
-    <div className={window.innerWidth < 992 ? "col-12 position-relative" : "contactHolder"}>
+    <div className="container position-relative" id="contact">
+    <div className={window.innerWidth < 992 ? "col-12 position-relative mt-5 text-center" : "contactHolder"}>
       <img className="image" src={IMG} alt="Junior Front-End Dev" />
       <h4 className="fw-bold my-3">Joanna Kołakowska</h4>
-      <ul className="contact-list">
+      <ul className="listStyleNone">
         <li>
           <a
             href="tel:+48727846517"
@@ -35,7 +34,7 @@ const ContactHolder = ({ language }: Props) => {
           <a
             href="https://github.com/Tou24601"
             target="blank"
-            className="text-reset text-decoration-none"
+            className="text-reset"
           >
             GitHub
           </a>
@@ -44,7 +43,7 @@ const ContactHolder = ({ language }: Props) => {
           <a
             href="https://www.linkedin.com/in/joanna-ko%C5%82akowska-b80628158/"
             target="blank"
-            className="text-reset text-decoration-none"
+            className="text-reset"
           >
             LinkedIn
           </a>
