@@ -1,5 +1,5 @@
 {
-    "projects-polish": [
+    "projects": [
         {
             "name": "Responsywna wyszukiwarka filmów na podstawie The Movie Database API",
             "language": "Vanilla TypeScript/Bootstrap",

@@ -1,5 +1,5 @@
 {
-    "projects-english": [
+    "projects": [
         {
             "name": "Responsive movie search app using The Movie Database API",
             "language": "Vanilla TypeScript/Bootstrap",

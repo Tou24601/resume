@@ -3,6 +3,8 @@ body {
   background-color: rgb(51, 119, 163);
   color: #ffffff;
   font-family: 'Lato', sans-serif;
+  font-size: large;
+  line-height: 40px;
   text-align: left;
 }
 
@@ -10,14 +12,15 @@ body {
   width: 100vw;
   height: 6vh;
   line-height: 6vh;
-  background-color: rgba(10, 39, 59, 0.3);
+  background-color: rgba(10, 39, 59, 0.7);
   transition: 0.5s;
   position: fixed;
   top: 0px;
+  z-index: 1;
 }
 
 .header:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .nav ul, .contact-list {
@@ -30,10 +33,10 @@ body {
 }
 
 .contactHolder {
-  width: 25vw;
+  width: auto;
   position: fixed;
-  top: 15vh;
-  right: 0;
+  top: 10vh;
+  right: 12vw;
 }
 
 .textHolder {
@@ -42,7 +45,7 @@ body {
 }
 
 .image {
-  height: 35vh;
+  height: 38vh;
   border-radius: 5%;
   box-shadow: 13px 16px 24px 0px rgba(25, 33, 113, 0.6);
 }
