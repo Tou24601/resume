@@ -18,7 +18,7 @@ const Education = ({ language }: Props) => {
     return (
       <ul className="listStyleNone">
         {data.education.map((item: Course) => (
-          <li key={data.education.indexOf(item)} className="mb-3">
+          <li key={data.education.indexOf(item)} className="pb-3">
             <h4 className="fw-bold">{item.school}</h4>
             <h5>{item.course} ({item.timePeriod})</h5>
             <p>{language === "english" ? "Course scope" : "Zakres kursu"}:<br />{item.description}</p>

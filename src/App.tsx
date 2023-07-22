@@ -25,15 +25,12 @@ function App() {
       </Routes></BrowserRouter>*/
 <div className="app">
         <Header language={language} setLanguage={setLanguage} />
-        <div className="container position-relative">
         <ContactHolder language={language} />
         <Home language={language} />
         <Portfolio language={language} />
         <Education language={language} />
         <Experience language={language} />
-        <Publications language={language} />
-        <Contact language={language} />
-        </div>
+        <Publications language={language} />       
         </div>
     
   );

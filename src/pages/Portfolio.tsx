@@ -25,7 +25,7 @@ const Portfolio = ({ language }: Props) => {
               href={item.preview}
               className="text-reset fw-bold" target="blank"
             >
-              {language === "english" ? "PreView" : "Podgląd"}
+              {language === "english" ? "Preview" : "Podgląd"}
             </a>
           </li>
         ))}

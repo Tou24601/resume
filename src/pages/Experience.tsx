@@ -17,7 +17,7 @@ const Experience = ({ language }: Props) => {
     return (
       <ul>
         {data.experience.map((item: Job) => (
-          <li key={data.experience.indexOf(item)} className="mb-3">
+          <li key={data.experience.indexOf(item)} className="pb-3">
             <h4 className="fw-bold">{item.company}</h4>
             <h5>{item.jobTitle} ({item.timePeriod})</h5>
             <p>{language === "english" ? "Job responsibilities" : "Obowiązki"}:<br />{item.description}</p>

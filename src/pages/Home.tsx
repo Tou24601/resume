@@ -46,7 +46,7 @@ const Home = ({ language }: Props) => {
     }
   };
   return (
-    <div id="about" className={window.innerWidth < 992 ? "aboutUnderContact" : ""}>
+    <div id="about">
     <TextHolder
         headingValue={language === "english" ? "About me" : "O mnie"}
         textboxValue={aboutMeText()}

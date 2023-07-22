@@ -1,9 +1,18 @@
-interface Props {
-    language: string;
-        }
+import TextHolder from "../components/TextHolder";
+import ContactHolder from "../components/ContactHolder";
 
-const Contact = ({language} : Props) => {
-    return <div></div>
+interface Props {
+  language: string;
 }
 
-export default Contact
+const Contact = ({ language }: Props) => {
+  
+
+  return (
+    <div id="contact" className="d-lg-none">
+      <ContactHolder language="language" />
+    </div>
+  );
+};
+
+export default Contact;
