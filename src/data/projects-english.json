@@ -1,25 +1,25 @@
 {
     "projects": [
         {
-            "name": "Responsive movie search app using The Movie Database API",
-            "language": "Vanilla TypeScript/Bootstrap",
+            "name": "Responsive movie search app using The\u00A0Movie Database API",
+            "language": "Vanilla\u00A0TypeScript/Bootstrap",
             "gitHub": "https://github.com/Tou24601/TS-MOVIE-BASE-SEARCH", 
             "preview": "https://moviesearch-jk.netlify.app/"
         },
         {
-            "name": "Responsive budget app",
+            "name": "Responsive budget\u00A0app",
             "language": "React.js/Bootstrap",
             "gitHub": "https://github.com/Tou24601/REACT-PROJEKT2", 
             "preview": "https://jkolakowska-react.netlify.app/"
         },
         {
-            "name": "Responsive app based on a Figma project",
+            "name": "Responsive\u00A0app based on\u00A0a\u00A0Figma project",
             "language": "React.js",
             "gitHub": "https://github.com/Tou24601/REACT-PROJEKT1", 
             "preview": "https://joannakolakowska-react2.netlify.app/"
         },
         {
-            "name": "Website based on a Figma project",
+            "name": "Website based on\u00A0a\u00A0Figma project",
             "language": "HTML5/CSS",
             "gitHub": "https://github.com/Tou24601/HTML-CSS-PROJEKT3", 
             "preview": "https://projektbonusowy-joannakolakowska.netlify.app/"
@@ -31,19 +31,19 @@
             "preview": "https://budzet-jkolakowska.netlify.app/"
         },
         {
-            "name": "Currency calculator using NBP API",
+            "name": "Currency calculator using NBP\u00A0API",
             "language": "Vanilla JavaScript/Bootstrap",
             "gitHub": "https://github.com/Tou24601/JS-PROJEKT2", 
             "preview": "https://przelicznikwalut-jkolakowska.netlify.app/"
         },
         {
-            "name": "Responsive website based on a Figma project",
+            "name": "Responsive website based on\u00A0a\u00A0Figma project",
             "language": "HTML5/CSS",
             "gitHub": "https://github.com/Tou24601/HTML-CSS-PROJEKT2", 
             "preview": "https://projekt2jk.netlify.app/"
         },
         {
-            "name": "Books catalog using Google Books API",
+            "name": "Books catalog using Google Books\u00A0API",
             "language": "React.js/Bootstrap",
             "gitHub": "https://github.com/Tou24601/recruitment-task1", 
             "preview": "https://jkolakowska-booksproject.netlify.app/"

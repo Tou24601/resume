@@ -2,40 +2,35 @@ interface Props {
   language: string;
 }
 
+interface MenuItem {
+  name: string;
+  path: string;
+  always: boolean;
+}
+
 const NavBar = ({ language }: Props) => {
+  let data = require(`../data/nav-${language}.json`);
+
   return (
-    <nav className="nav">
+    <nav className="nav large-nav">
       <ul className="d-flex flex-row gap-3">
-        <li className="d-lg-none">
-          <a href="#contact" className="text-reset text-decoration-none">
-            {language === "english" ? "Contact" : "Kontakt"}
-          </a>
-        </li>
-        <li>
-          <a href="#about" className="text-reset text-decoration-none">
-            {language === "english" ? "About me" : "O mnie"}
-          </a>
-        </li>
-        <li>
-          <a href="#portfolio" className="text-reset text-decoration-none">
-            Portfolio
-          </a>
-        </li>
-        <li>
-          <a href="#education" className="text-reset text-decoration-none">
-            {language === "english" ? "Education" : "Edukacja"}
-          </a>
-        </li>
-        <li>
-          <a href="#experience" className="text-reset text-decoration-none">
-            {language === "english" ? "Experience" : "Doświadczenie"}
-          </a>
-        </li>
-        <li>
-          <a href="#publications" className="text-reset text-decoration-none">
-            {language === "english" ? "Publications" : "Publikacje"}
-          </a>
-        </li>
+        {data.menu.map((item: MenuItem) => {
+          if (!item.always) {
+            return               <li key={data.menu.indexOf(item)}>
+            <a href={item.path} className="text-reset text-decoration-none d-lg-none">
+              {item.name}
+            </a>
+          </li>;
+          } else {
+            return (
+              <li key={data.menu.indexOf(item)}>
+                <a href={item.path} className="text-reset text-decoration-none">
+                  {item.name}
+                </a>
+              </li>
+            );
+          }
+        })}
       </ul>
     </nav>
   );

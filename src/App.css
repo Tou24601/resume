@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   text-align: center;
   background-color: rgb(51, 119, 163);
   color: #ffffff;
-  font-family: 'Lato', sans-serif;
-  font-size: large;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   line-height: 40px;
   text-align: left;
 }
@@ -21,6 +27,10 @@ body {
 
 .header:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.large-nav {
+  display: none;
 }
 
 ul {
@@ -42,8 +52,13 @@ ul {
 
 
 .textHolder {
-  padding-top: 35vh;
+  padding-top: 30vh;
   margin-left: 2.5vw;
+}
+
+.emphasis {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .image {
@@ -52,8 +67,20 @@ ul {
   box-shadow: 13px 16px 24px 0px rgba(25, 33, 113, 0.6);
 }
 
+#publications {
+  padding-bottom: 35vh;
+}
+
 @media screen and (min-width: 992px) {
-.contactHolder {
+.menuButton {
+  display: none;
+}
+
+.large-nav {
+  display: initial;
+}
+
+  .contactHolder {
   position: fixed;
   top: 14vh;
   right: 12vw;

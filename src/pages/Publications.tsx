@@ -18,7 +18,7 @@ const Publications = ({ language }: Props) => {
     return (
       <ul className="listStyleNone">
         {data.publications.map((item: Publication) => (
-          <li key={data.publications.indexOf(item)} className="mb-3">
+          <li key={data.publications.indexOf(item)}>
             <h4 className="fw-bold">{item.title}</h4>
             <p>{item.authors}, {item.publishingCompany}, {item.city}&nbsp;{item.year}</p>
           </li>

@@ -1,0 +1,33 @@
+{
+  "menu": [
+    {
+      "name": "Kontakt",
+      "path": "#contact",
+      "always": false
+    },
+    {
+      "name": "O mnie",
+      "path": "#about",
+      "always": true
+    },
+    {
+      "name": "Portfolio",
+      "path": "#portfolio",
+      "always": true
+    },
+    {
+      "name": "Edukacja",
+      "path": "#education",
+      "always": true
+    },
+    {
+      "name": "Doświadczenie",
+      "path": "#experience",
+      "always": true
+    },
+    {
+      "name": "Publikacje",
+      "path": "#publications"
+    }
+  ]
+}

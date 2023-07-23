@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -14,11 +15,7 @@ const ContactHolder = ({ language }: Props) => {
   return (
     
       <div
-        className="container contactHolder" id="contact"/*{
-          window.innerWidth < 992
-            ? "col-12 position-relative mt-5 text-center"
-            : "contactHolder"
-        }*/
+        className="container contactHolder" id="contact"
       >
         <img className="image" src={IMG} alt="Junior Front-End Dev" />
         <h4 className="fw-bold my-3">Joanna Kołakowska</h4>
@@ -68,6 +65,20 @@ const ContactHolder = ({ language }: Props) => {
               className="text-reset"
             >
               LinkedIn
+            </a>
+          </li>
+          <li>
+          <FontAwesomeIcon icon={faFilePdf} style={{color: "#ffffff",}} />{" "}
+            <a
+              href={language === "english"
+              ? "./documents/CV_Joanna_Kolakowska.pdf"
+              : "./documents/EN_Joanna_Kolakowska.pdf"}
+              target="blank"
+              className="text-reset"
+            >
+            {language === "english"
+              ? "Resume"
+              : "CV"}
             </a>
           </li>
         </ul>
