@@ -10,7 +10,7 @@ const About = ({ language }: Props) => {
       return (
         <div>
           <p>
-            I&nbsp;am a&nbsp;front-end developer, editor, and&nbsp;professional
+            I&nbsp;am a&nbsp;front-end developer, editor and&nbsp;a&nbsp;professional writer
             looking for&nbsp;new, exciting projects and&nbsp;opportunities
             to&nbsp;expand my&nbsp;skills. I&nbsp;am programming in&nbsp;
             <span className="emphasis">React.js</span>,{" "}
