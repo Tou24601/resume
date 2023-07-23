@@ -27,7 +27,8 @@
     },
     {
       "name": "Publikacje",
-      "path": "#publications"
+      "path": "#publications",
+      "always": true
     }
   ]
 }
