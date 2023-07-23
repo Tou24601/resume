@@ -1,39 +1,41 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-
-<FontAwesomeIcon icon={faBars} style={{color: "#ffffff",}} />
+import { useState } from "react";
 
 interface Props {
-    language: string;
-  }
+  language: string;
+}
 
-  interface MenuItem {
-    name: string,
-    path: string,
-  }
-  
-  const NavBarMobile = ({ language }: Props) => {
-    let data = require(`../data/nav-${language}.json`);
-    console.log(data)
-    return (
-<div className="dropdown d-lg-none">
-  <button className="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-  <FontAwesomeIcon icon={faBars} style={{color: "#ffffff",}} />
-  </button>
-  <ul className="dropdown-menu">
-    {data.menu.map((item: MenuItem) => {
-        return    <li key={data.menu.indexOf(item)}>
-        <a href={item.path} className="text-reset text-decoration-none dropdown-item">
+interface MenuItem {
+  name: string;
+  path: string;
+}
+
+const NavBarMobile = ({ language }: Props) => {
+  const [isVisible, setIsVisible] = useState(false);
+  let data = require(`../data/nav-${language}.json`);
+
+  const handleClick = (): void => {
+    setIsVisible(!isVisible);
+  };
+  return (
+    <div className="d-lg-none">
+     
+        <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff" }} onClick={() => handleClick()} />
+
+      <div className={isVisible ? "darkerBackground px-3 py-1" : "d-none"} onClick={() => handleClick()}><ul className="">
+    {
+    data.menu.map((item: MenuItem) => {
+           return    <li key={data.menu.indexOf(item)}>
+        <a href={item.path} className="text-reset text-decoration-none">
           {item.name}
         </a>
       </li>
     })}
          
-        </ul>
-</div>
+        </ul></div>
+    </div>
+  );
+};
 
-    );
-  };
-  
-  export default NavBarMobile;
-  
+export default NavBarMobile;

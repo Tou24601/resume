@@ -12,7 +12,7 @@
             "timePeriod": "12.2022-01.2023", 
             "course": "HTML/CSS",
             "description": "HTML 5.x; CSS3; podstawy animacji CSS; RWD (Fluid layout, @media, mobile-first); BEM; Bootstrap, ESLint, Prettier, Github, Gitlab",
-            "certificate": "./documents/Certyfikat 2023_1_32 - Joanna Kołakowska.pdf"
+            "certificate": "../documents/Certyfikat 2023_1_32 - Joanna Kołakowska.pdf"
         },
         {
             "school": "Udacity",
@@ -24,7 +24,7 @@
             "school": "Stanford Online",
             "timePeriod": "2016", 
             "course": "Writing in the Sciences",
-            "certificate": "./documents/Certyfikat Writing in the Sciences.pdf"
+            "certificate": "../documents/Certyfikat Writing in the Sciences.pdf"
         },
         {
             "school": "Uniwersytet Warszawski",

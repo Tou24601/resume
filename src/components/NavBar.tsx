@@ -23,7 +23,7 @@ const NavBar = ({ language }: Props) => {
           </li>;
           } else {
             return (
-              <li key={data.menu.indexOf(item)}>
+              <li key={data.menu.indexOf(item)} className="pointer">
                 <a href={item.path} className="text-reset text-decoration-none">
                   {item.name}
                 </a>

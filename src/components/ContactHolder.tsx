@@ -1,4 +1,6 @@
 import IMG from "../assets/frontend.jpg";
+import Resume from "../documents/EN_Joanna_Kolakowska.pdf";
+import CV from "../documents/CVJoannaKolakowska.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -71,8 +73,8 @@ const ContactHolder = ({ language }: Props) => {
           <FontAwesomeIcon icon={faFilePdf} style={{color: "#ffffff",}} />{" "}
             <a
               href={language === "english"
-              ? "./documents/CV_Joanna_Kolakowska.pdf"
-              : "./documents/EN_Joanna_Kolakowska.pdf"}
+              ? Resume
+              : CV}
               target="blank"
               className="text-reset"
             >

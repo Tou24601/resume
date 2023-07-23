@@ -9,7 +9,7 @@ interface Props {
 
 const Header = ({ language, setLanguage }: Props) => {
   return (
-    <header className="header">
+    <header className="header darkerBackground">
       <div className="container d-flex flex-row justify-content-between">
         <NavBarMobile language={language} />
         <NavBar language={language} />
