@@ -55,7 +55,7 @@ ul {
 
 
 .textHolder {
-  padding-top: 30vh;
+  padding-top: 10vh;
   margin-left: 2.5vw;
 }
 
@@ -90,6 +90,9 @@ ul {
   text-align: start;
   padding-top: 0vw;
   padding-left: 10vw;
+}
+.textHolder {
+  padding-top: 35vh;
 }
 }
 
