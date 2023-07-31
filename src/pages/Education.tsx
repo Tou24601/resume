@@ -1,4 +1,5 @@
 import TextHolder from "../components/TextHolder";
+import Certificates from "../components/Certificates";
 
 interface Props {
   language: string;
@@ -23,7 +24,7 @@ const Education = ({ language }: Props) => {
             <h5>
               {item.course} ({item.timePeriod})
             </h5>
-            <p>
+            <p className={item.description ? "" : "d-none"}>
               {language === "english" ? "Course scope" : "Zakres kursu"}:<br />
               {item.description}
             </p>
@@ -39,6 +40,7 @@ const Education = ({ language }: Props) => {
         headingValue={language === "english" ? "Education" : "Edukacja"}
         textboxValue={getEducationMainText()}
       />
+      <Certificates language={language} />
     </div>
   );
 };
