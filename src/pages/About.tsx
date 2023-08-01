@@ -10,22 +10,25 @@ const About = ({ language }: Props) => {
       return (
         <div>
           <p>
-            I&nbsp;am a&nbsp;front-end developer, editor and&nbsp;a&nbsp;professional writer
-            looking for&nbsp;new, exciting projects and&nbsp;opportunities
-            to&nbsp;expand my&nbsp;skills. I&nbsp;am programming in&nbsp;
+            I&nbsp;am a&nbsp;front-end developer, an&nbsp;editor
+            and&nbsp;a&nbsp;professional writer looking for&nbsp;new, exciting
+            projects and&nbsp;opportunities to&nbsp;expand my&nbsp;skills.
+            I&nbsp;am programming in&nbsp;
             <span className="emphasis">React.js</span>,{" "}
             <span className="emphasis">JavaScript</span>,{" "}
             <span className="emphasis">TypeScript</span>,{" "}
             <span className="emphasis">HTML5</span>, and&nbsp;
             <span className="emphasis">CSS</span>. Currently learning{" "}
-            <span className="emphasis">Angular</span>. In&nbsp;most of&nbsp;my
+            <span className="emphasis">Angular</span> and&nbsp;
+            <span className="emphasis">Java</span>. In&nbsp;most of&nbsp;my
             projects I&nbsp;have been using{" "}
-            <span className="emphasis">Bootstrap</span>. I&nbsp;am experienced
-            in&nbsp;working with&nbsp;macOS and&nbsp;Microsoft Windows, Visual
-            Studio Code, Atom, monday.com, Adobe InDesign, and Microsoft Office.
+            <span className="emphasis">Bootstrap</span>. I&nbsp; know basics
+            of&nbsp;SEM and&nbsp;I&nbsp;am experienced in&nbsp;working
+            with&nbsp;macOS and&nbsp;Microsoft Windows, Visual Studio Code,
+            Atom, monday.com, Adobe InDesign, and Microsoft Office.
           </p>
           <p>
-            Six&nbsp;years of&nbsp;experience in&nbsp;media has taught me how
+            Seven&nbsp;years of&nbsp;experience in&nbsp;media has taught me how
             to&nbsp;give my best even under time pressure and&nbsp;how
             to&nbsp;cooperate with&nbsp;a&nbsp;larger team.
           </p>
@@ -46,18 +49,22 @@ const About = ({ language }: Props) => {
             <span className="emphasis">HTML5</span> i&nbsp;
             <span className="emphasis">CSS</span>. Znam{" "}
             <span className="emphasis">React.js</span>, poznaję{" "}
-            <span className="emphasis">Angular</span>. Przy większości swoich
+            <span className="emphasis">Angular</span> oraz{" "}
+            <span className="emphasis">Javę</span>. Przy większości swoich
             projektów korzystałam z&nbsp;
-            <span className="emphasis">Bootstrapa</span>. Dzięki ponad
-            sześcioletniemu doświadczeniu w&nbsp;mediach zdobyłam umiejętność
-            działania pod presją czasu, w&nbsp;szybko zmieniających się
-            okolicznościach oraz współpracy z&nbsp;dużym zespołem.
+            <span className="emphasis">Bootstrapa</span>. Znam systemy macOS
+            i&nbsp;Microsoft Windows oraz programy takie jak Visual Studio Code,
+            Atom, monday.com, Adobe InDesign czy pakiet Microsoft Office. Dzięki
+            7-letniemu doświadczeniu w&nbsp;mediach poznałam zasady SEM oraz
+            zdobyłam umiejętności współpracy z&nbsp;dużym zespołem
+            i&nbsp;działania pod presją czasu, w&nbsp;szybko zmieniających się
+            okolicznościach.
           </p>
           <p>
-            Od trzech lat pracuję zdalnie, więc mam samodyscyplinę
-            i&nbsp;połączenie internetowe niezbędne do wykonywania swoich
-            obowiązków z&nbsp;domu. Wcześniej przez cztery lata zdobywałam
-            doświadczenie w&nbsp;biurze; chętnie połączę obie te formy.
+            Od 3 lat pracuję zdalnie, więc mam samodyscyplinę i&nbsp;połączenie
+            internetowe niezbędne do wykonywania swoich obowiązków z&nbsp;domu.
+            Wcześniej przez cztery lata zdobywałam doświadczenie w&nbsp;biurze;
+            chętnie połączę obie te formy.
           </p>
           <p>Zapraszam do zapoznania się z&nbsp;moim portfolio!</p>
         </div>

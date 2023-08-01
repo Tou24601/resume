@@ -21,6 +21,13 @@
             "description": "HTML, CSS, and JavaScript basics"
         },
         {
+            "school": "Google",
+            "timePeriod": "2017", 
+            "course": "Internetowe Rewolucje",
+            "description": "kurs marketingu cyfrowego",
+            "certificate": "../documents/Certyfikat Internetowych Rewolucji.pdf"
+        },
+        {
             "school": "Stanford Online",
             "timePeriod": "2016", 
             "course": "Writing in the Sciences",

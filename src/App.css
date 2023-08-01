@@ -55,7 +55,7 @@ ul {
 
 
 .textHolder {
-  padding-top: 10vh;
+  padding-top: 5vh;
   margin-left: 2.5vw;
 }
 
@@ -85,14 +85,14 @@ ul {
 
   .contactHolder {
   position: fixed;
-  top: 14vh;
+  top: 8vh;
   right: 12vw;
   text-align: start;
   padding-top: 0vw;
   padding-left: 10vw;
 }
 .textHolder {
-  padding-top: 35vh;
+  padding-top: 20vh;
 }
 }
 
