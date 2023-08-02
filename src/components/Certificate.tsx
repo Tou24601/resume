@@ -8,12 +8,7 @@ const Certificate = ({ path, school, name }: Props) => {
   return (
     <p className="certificate">
       <span className="fw-bold schoolName">{school}</span>
-      <a
-        href={path}
-        className="text-reset"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={path} className="text-reset" target="_blank" rel="noreferrer">
         <br />
         {name}
       </a>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -8,7 +8,7 @@ body {
   text-align: center;
   background-color: rgb(51, 119, 163);
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 40px;
   text-align: left;
@@ -53,8 +53,6 @@ ul {
   text-align: center;
 }
 
-
-
 .textHolder {
   padding-top: 5vh;
   margin-left: 2.5vw;
@@ -72,7 +70,7 @@ ul {
 }
 
 .certificate {
-  line-height: 30px
+  line-height: 30px;
 }
 .schoolName {
   text-decoration: none;
@@ -83,25 +81,23 @@ ul {
 }
 
 @media screen and (min-width: 992px) {
-.menuButton {
-  display: none;
-}
+  .menuButton {
+    display: none;
+  }
 
-.large-nav {
-  display: initial;
-}
+  .large-nav {
+    display: initial;
+  }
 
   .contactHolder {
-  position: fixed;
-  top: 8vh;
-  right: 12vw;
-  text-align: start;
-  padding-top: 0vw;
-  padding-left: 10vw;
+    position: fixed;
+    top: 8vh;
+    right: 12vw;
+    text-align: start;
+    padding-top: 0vw;
+    padding-left: 10vw;
+  }
+  .textHolder {
+    padding-top: 20vh;
+  }
 }
-.textHolder {
-  padding-top: 20vh;
-}
-}
-
-

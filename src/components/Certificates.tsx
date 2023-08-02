@@ -11,17 +11,35 @@ interface Props {
 }
 
 const Certificates = ({ language }: Props) => {
-  return <div className="ms-5 col-12 col-lg-7">
-    <h3 className="fw-bold pb-3">
-      {language === "english" ? "Certificates" : "Certyfikaty"}
-    </h3>
-    <div className="d-flex flex-column flex-lg-row gap-5 text-start text-lg-center">
-    <Certificate path={language === "english" ? HTML_english : HTML_polish} school="Future Collars" name="HTML/CSS" />
-    <Certificate path={language === "english" ? JS_english : JS_polish} school="Future Collars" name="JAVASCRIPT & REACT" />
-    <Certificate path={InternetoweRewolucje} school="Google" name="Internetowe Rewolucje" />
-    <Certificate path={WritingInTheScience} school="Stanford Online" name="Writing in the Sciences" />
+  return (
+    <div className="ms-5 col-12 col-lg-7">
+      <h3 className="fw-bold pb-3">
+        {language === "english" ? "Certificates" : "Certyfikaty"}
+      </h3>
+      <div className="d-flex flex-column flex-lg-row gap-5 text-start text-lg-center">
+        <Certificate
+          path={language === "english" ? HTML_english : HTML_polish}
+          school="Future Collars"
+          name="HTML/CSS"
+        />
+        <Certificate
+          path={language === "english" ? JS_english : JS_polish}
+          school="Future Collars"
+          name="JAVASCRIPT & REACT"
+        />
+        <Certificate
+          path={InternetoweRewolucje}
+          school="Google"
+          name="Internetowe Rewolucje"
+        />
+        <Certificate
+          path={WritingInTheScience}
+          school="Stanford Online"
+          name="Writing in the Sciences"
+        />
+      </div>
     </div>
-  </div>;
+  );
 };
 
 export default Certificates;
