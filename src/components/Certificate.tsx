@@ -6,11 +6,18 @@ interface Props {
 
 const Certificate = ({ path, school, name }: Props) => {
   return (
-    <a href={path} className="text-reset" target="_blank" rel="noreferrer">
-      <span className="fw-bold text-decoration-none">{school}</span>
-      <br />
-      {name}
-    </a>
+    <p className="certificate">
+      <span className="fw-bold schoolName">{school}</span>
+      <a
+        href={path}
+        className="text-reset"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <br />
+        {name}
+      </a>
+    </p>
   );
 };
 

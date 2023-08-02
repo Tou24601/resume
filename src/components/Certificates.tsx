@@ -11,7 +11,7 @@ interface Props {
 }
 
 const Certificates = ({ language }: Props) => {
-  return <div className="ms-5">
+  return <div className="ms-5 col-12 col-lg-7">
     <h3 className="fw-bold pb-3">
       {language === "english" ? "Certificates" : "Certyfikaty"}
     </h3>
