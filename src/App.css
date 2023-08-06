@@ -48,13 +48,14 @@ ul {
 .contactHolder {
   width: auto;
   height: 80vh;
-  padding-top: 15vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   margin: 0 auto;
   text-align: center;
 }
 
 .textHolder {
-  padding-top: 5vh;
+  padding-top: 25vh;
   margin-left: 2.5vw;
 }
 
