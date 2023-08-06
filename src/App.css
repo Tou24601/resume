@@ -86,6 +86,10 @@ ul {
     display: none;
   }
 
+  .header {
+    padding: 0px 5vh;
+  }
+
   .large-nav {
     display: initial;
   }
