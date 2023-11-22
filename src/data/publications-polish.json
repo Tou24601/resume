@@ -1,11 +1,28 @@
 {
-    "publications": [
-        {
-            "title": "„Rozrywki Wieczorne” jako świadectwo i\u00A0dziedzictwo salonu rodziny Tańskich",
-            "publishingCompany": "Wydział Polonistyki Uniwersytetu Warszawskiego", 
-            "year": "2020",
-            "city": "Warszawa",
-            "authors": "oprac.\u00A0Joanna Kołakowska"
-        }
-    ]
+  "publications": [
+    {
+      "title": "„Rozrywki Wieczorne” jako świadectwo i\u00A0dziedzictwo salonu rodziny Tańskich",
+      "publishingCompany": "Wydział Polonistyki Uniwersytetu Warszawskiego",
+      "year": "2020",
+      "city": "Warszawa",
+      "authors": "oprac.\u00A0Joanna Kołakowska",
+      "link": "https://books.google.pl/books/about/Rozrywki_wieczorne_jako_%C5%9Bwiadectwo_i_dz.html?id=CPLpzgEACAAJ&redir_esc=y"
+    },
+    {
+      "title": "Córy Nieba [w:] NanoFantazje 3.0",
+      "publishingCompany": "Fantazmaty",
+      "year": "2023",
+      "city": "Opoczno",
+      "authors": "Joanna Kołakowska",
+      "link": "https://fantazmaty.pl/czytaj/antologie/#nanofantazje-3"
+    },
+    {
+      "title": "Sen o Eurydyce [w:] NanoFantazje 3.0",
+      "publishingCompany": "Fantazmaty",
+      "year": "2023",
+      "city": "Opoczno",
+      "authors": "Joanna Kołakowska",
+      "link": "https://fantazmaty.pl/czytaj/antologie/#nanofantazje-3"
+    }
+  ]
 }
