@@ -1,11 +1,29 @@
 {
     "publications": [
-        {
-            "title": "„Rozrywki Wieczorne” jako świadectwo i\u00A0dziedzictwo salonu rodziny Tańskich (‘Evening Entertainments’ as\u00A0a\u00A0testimony and\u00A0a\u00A0legacy of\u00A0Tański's salon)",
-            "publishingCompany": "Faculty of\u00A0Polish Studies", 
-            "year": "2020",
-            "city": "Warsaw",
-            "authors": "ed.\u00A0Joanna Kołakowska"
-        }
+    {
+    "title": "„Rozrywki Wieczorne” jako świadectwo i\u00A0dziedzictwo salonu rodziny Tańskich (‘Evening Entertainments’ as\u00A0a\u00A0testimony and\u00A0a\u00A0legacy of\u00A0Tański's salon)",
+    "publishingCompany": "Faculty of\u00A0Polish Studies",
+    "year": "2020",
+    "city": "Warsaw",
+    "authors": "ed.\u00A0Kołakowska, Joanna",
+    "link": "https://books.google.pl/books/about/Rozrywki_wieczorne_jako_%C5%9Bwiadectwo_i_dz.html?id=CPLpzgEACAAJ&redir_esc=y"
+    
+    },
+    {
+    "title": "Córy Nieba [in:] NanoFantazje 3.0 (Daughters of the Sky)",
+    "publishingCompany": "Fantazmaty",
+    "year": "2023",
+    "city": "Opoczno",
+    "authors": "Kołakowska, Joanna ",
+    "link": "https://fantazmaty.pl/czytaj/antologie/#nanofantazje-3"
+    },
+    {
+    "title": "Sen o Eurydyce [in:] NanoFantazje 3.0 (Dreaming about Eurydice)",
+    "publishingCompany": "Fantazmaty",
+    "year": "2023",
+    "city": "Opoczno",
+    "authors": "Kołakowska, Joanna",
+    "link": "https://fantazmaty.pl/czytaj/antologie/#nanofantazje-3"
+    }
     ]
-}
+    }
