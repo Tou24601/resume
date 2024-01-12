@@ -1,5 +1,11 @@
 {
     "projects": [
+                        {
+            "name": "PWA using Google Maps API",
+            "language": "React.js/TypeScript/Bootstrap",
+            "gitHub": "https://github.com/Tou24601/wiersze-o-tatrach", 
+            "preview": "https://wiersze-o-tatrach.netlify.app/#/"
+        },
         {
             "name": "Responsive movie search app using The\u00A0Movie Database API",
             "language": "Vanilla\u00A0TypeScript/Bootstrap",
