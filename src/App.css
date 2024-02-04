@@ -19,9 +19,9 @@ body {
 }
 
 .header {
-  width: 100vw;
-  height: 6vh;
-  line-height: 6vh;
+  width: 120vw;
+  height: 60px;
+  line-height: 60px;
   transition: 0.5s;
   position: fixed;
   top: 0px;
@@ -88,6 +88,7 @@ ul {
 
   .header {
     padding: 0px 12vw 0px 3vw;
+    width: 100vw;
   }
 
   .large-nav {

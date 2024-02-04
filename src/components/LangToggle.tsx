@@ -11,7 +11,7 @@ const LangToggle = ({ language, setLanguage }: Props) => {
   };
 
   return (
-    <p id="langToggle">
+    <p id="langToggle" className="pe-5">
       <span id="polish" className="fw-normal pointer" onClick={(e) => switchLang(e)}>
         POL
       </span>

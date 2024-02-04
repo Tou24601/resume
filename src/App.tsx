@@ -12,17 +12,15 @@ import "./App.css";
 function App() {
   const [language, setLanguage] = useState("english");
   return (
-
-<div className="app">
-        <Header language={language} setLanguage={setLanguage} />
-        <ContactHolder language={language} />
-        <About language={language} />
-        <Portfolio language={language} />
-        <Education language={language} />
-        <Experience language={language} />
-        <Publications language={language} />       
-        </div>
-    
+    <div className="app">
+      <Header language={language} setLanguage={setLanguage} />
+      <ContactHolder language={language} />
+      <About language={language} />
+      <Portfolio language={language} />
+      <Education language={language} />
+      <Experience language={language} />
+      <Publications language={language} />
+    </div>
   );
 }
 

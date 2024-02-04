@@ -21,7 +21,7 @@ const NavBarMobile = ({ language }: Props) => {
   return (
     <div className="d-lg-none">
      
-        <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff" }} onClick={() => handleClick()} />
+        <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff" }} onClick={() => handleClick()} className="ps-5" />
 
       <div className={isVisible ? "darkerBackground px-3 py-1" : "d-none"} onClick={() => handleClick()}><ul className="">
     {
