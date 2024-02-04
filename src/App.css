@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-  width: 120vw;
+  width: 100vw;
   height: 60px;
   line-height: 60px;
   transition: 0.5s;
