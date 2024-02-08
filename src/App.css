@@ -95,6 +95,10 @@ ul {
     width: 100vw;
   }
 
+  #langToggle {
+    padding-right: 0vw;
+  }
+
   .large-nav {
     display: initial;
   }
