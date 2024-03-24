@@ -6,6 +6,7 @@ import JS_polish from "../documents/Certyfikat 2023_4_54 - Joanna Kołakowska.pd
 import InternetoweRewolucje from "../documents/Certyfikat Internetowych Rewolucji.pdf";
 import WritingInTheScience from "../documents/Certyfikat Writing in the Sciences.pdf";
 
+
 interface Props {
   language: string;
 }
