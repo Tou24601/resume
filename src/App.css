@@ -74,6 +74,10 @@ ul {
   box-shadow: 13px 16px 24px 0px rgba(25, 33, 113, 0.6);
 }
 
+.carousel {
+  width: auto;
+}
+
 .certificate {
   line-height: 30px;
 }
