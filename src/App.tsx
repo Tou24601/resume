@@ -8,6 +8,7 @@ import Education from "./pages/Education";
 import Experience from "./pages/Experience";
 import Publications from "./pages/Publications";
 import "./App.css";
+import Carousel from "./components/Carousel";
 
 function App() {
   const [language, setLanguage] = useState("english");
@@ -20,6 +21,7 @@ function App() {
       <Education language={language} />
       <Experience language={language} />
       <Publications language={language} />
+      <Carousel />
     </div>
   );
 }

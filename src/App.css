@@ -89,6 +89,19 @@ ul {
   padding-bottom: 35vh;
 }
 
+.science1 {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+}
+
+
+.science2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
 @media screen and (min-width: 992px) {
   .menuButton {
     display: none;
