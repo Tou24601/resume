@@ -26,28 +26,28 @@ const Carousel = () => {
     console.log("hello");
   };
   return (
-    <div className="col-4">
+    <div className="col-4 carouselStyling ">
       <div id="carouselExample" className="carousel slide">
-        <div className="carousel-inner">
-          <div className="carousel-item active p-5">
+        <div className="carousel-inner p-5 ">
+          <div className="carousel-item active carouselStyling">
             <a href={HTML_english} className="text-reset" target="_blank" rel="noreferrer">
               <img
                 src={HTML_english_PNG}
-                className="d-block w-100"
+                className="d-block w-100 align-middle"
                 alt="HTML i CSS - certyfikat"
               />
             </a>
           </div>
-          <div className="carousel-item p-5 ">
+          <div className="carousel-item carouselStyling">
             <a href={JS_english} className="text-reset" target="_blank" rel="noreferrer">
               <img
                 src={JS_english_PNG}
-                className="d-block w-100"
+                className="d-block w-100 align-middle"
                 alt="Java Script i React - certyfikat"
               />
             </a>
           </div>
-          <div className="carousel-item p-5">
+          <div className="carousel-item carouselStyling smallerCertificate">
             <a href={InternetoweRewolucje} className="text-reset" target="_blank" rel="noreferrer">
               <img
                 src={InternetoweRewolucje_PNG}
@@ -56,11 +56,11 @@ const Carousel = () => {
               />
             </a>
           </div>
-          <div className="carousel-item p-5">
+          <div className="carousel-item carouselStyling smallerCertificate">
             <a href={WritingInTheScience} className="text-reset" target="_blank" rel="noreferrer">
               <img
                 src={WritingInTheScience_PNG}
-                className="d-block w-100"
+                className="d-block w-100 align-middle"
                 alt="English - certyfikat"
               />
             </a>

@@ -6,7 +6,9 @@ html {
 
 body {
   text-align: center;
-  background-color: rgb(51, 119, 163);
+  background: rgb(134,163,191);
+background: linear-gradient(333deg, rgba(134,163,191,1) 0%, rgba(51,119,163,1) 78%);
+  /*background-color: rgb(51, 119, 163);*/
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -74,8 +76,14 @@ ul {
   box-shadow: 13px 16px 24px 0px rgba(25, 33, 113, 0.6);
 }
 
-.carousel {
-  width: auto;
+.carouselStyling {
+  height: 900px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.smallerCertificate {
+  padding-top: 200px;
 }
 
 .certificate {
@@ -87,19 +95,6 @@ ul {
 
 #publications {
   padding-bottom: 35vh;
-}
-
-.science1 {
-  width: 100px;
-  height: 100px;
-  background-color: blueviolet;
-}
-
-
-.science2 {
-  width: 100px;
-  height: 100px;
-  background-color: red;
 }
 
 @media screen and (min-width: 992px) {
