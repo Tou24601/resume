@@ -8,6 +8,7 @@ import JS_english_PNG from "../assets/JavaScript-english.png";
 import JS_polish_PNG from "../assets/JavaScript-polish.png";
 import InternetoweRewolucje_PNG from "../assets/InternetoweRewolucje.png";
 import WritingInTheScience_PNG from "../assets/WritingInTheScience.png";
+import UWDiploma from "../assets/copywriter.png";
 
 //pdfs
 import HTML_english from "../documents/Certificate 2023_1_32 - Joanna Kołakowska.pdf";
@@ -29,26 +30,41 @@ const Carousel = () => {
     <div className="col-4 carouselStyling ">
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner p-5 ">
-          <div className="carousel-item active carouselStyling">
-            <a href={HTML_english} className="text-reset" target="_blank" rel="noreferrer">
-              <img
-                src={HTML_english_PNG}
-                className="d-block w-100 align-middle"
-                alt="HTML i CSS - certyfikat"
-              />
-            </a>
-          </div>
-          <div className="carousel-item carouselStyling">
-            <a href={JS_english} className="text-reset" target="_blank" rel="noreferrer">
+          <div className="carousel-item carouselStyling active">
+            <a
+              href={JS_english}
+              className="text-reset"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={JS_english_PNG}
-                className="d-block w-100 align-middle"
+                className="d-block w-100"
                 alt="Java Script i React - certyfikat"
               />
             </a>
           </div>
+          <div className="carousel-item carouselStyling">
+            <a
+              href={HTML_english}
+              className="text-reset"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={HTML_english_PNG}
+                className="d-block w-100"
+                alt="HTML i CSS - certyfikat"
+              />
+            </a>
+          </div>
           <div className="carousel-item carouselStyling smallerCertificate">
-            <a href={InternetoweRewolucje} className="text-reset" target="_blank" rel="noreferrer">
+            <a
+              href={InternetoweRewolucje}
+              className="text-reset"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={InternetoweRewolucje_PNG}
                 className="d-block w-100"
@@ -57,13 +73,25 @@ const Carousel = () => {
             </a>
           </div>
           <div className="carousel-item carouselStyling smallerCertificate">
-            <a href={WritingInTheScience} className="text-reset" target="_blank" rel="noreferrer">
+            <a
+              href={WritingInTheScience}
+              className="text-reset"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={WritingInTheScience_PNG}
-                className="d-block w-100 align-middle"
-                alt="English - certyfikat"
+                className="d-block w-100"
+                alt="English C1 - certificate"
               />
             </a>
+          </div>
+          <div className="carousel-item carouselStyling smallerCertificate">
+            <img
+              src={UWDiploma}
+              className="d-block w-100"
+              alt="Filologia Polska - dyplom"
+            />
           </div>
         </div>
         <button
