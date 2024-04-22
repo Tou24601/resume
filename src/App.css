@@ -71,18 +71,29 @@ ul {
 .image {
   height: 38vh;
   border-radius: 5%;
-  box-shadow: 13px 16px 24px 0px rgba(25, 33, 113, 0.6);
+  box-shadow: 15px 15px 24px 6px rgba(25, 33, 113, 1);
 }
 
-.carousel {
-  width: auto;
+.shadow-img {
+  box-shadow: 15px 15px 24px 6px rgba(25, 33, 113, 1);
+}
+
+.smallerCertificate {
+  padding-top: 200px;
 }
 
 .certificate {
   line-height: 30px;
 }
+
 .schoolName {
   text-decoration: none;
+}
+
+.carouselStyling {
+  height: 700px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 #publications {

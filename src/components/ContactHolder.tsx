@@ -16,7 +16,7 @@ interface Props {
 const ContactHolder = ({ language }: Props) => {
   return (
     <div className="container contactHolder" id="contact">
-      <img className="image" src={IMG} alt="Junior Front-End Dev" />
+      <img className="image shadow-img" src={IMG} alt="Junior Front-End Dev" />
       <h4 className="fw-bold my-3">Joanna Kołakowska</h4>
       <ul className="listStyleNone">
         <li>

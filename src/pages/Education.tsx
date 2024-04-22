@@ -1,12 +1,13 @@
-import TextHolder from "../components/TextHolder";
-import Certificates from "../components/Certificates";
+//import TextHolder from "../components/TextHolder";
+//import Certificates from "../components/Certificates";
+import Carousel from "../components/Carousel";
 
 interface Props {
   language: string;
 }
 
 const Education = ({ language }: Props) => {
-  const getEducationMainText = () => {
+  /*const getEducationMainText = () => {
     let data = require(`../data/education-${language}.json`);
 
     interface Course {
@@ -15,8 +16,13 @@ const Education = ({ language }: Props) => {
       timePeriod: string;
       description?: string;
       certificate?: string;
-    }
+    }*/
     return (
+      <div id="education">
+      <Carousel language={language} />
+      </div>
+      
+      /*
       <ul className="listStyleNone">
         {data.education.map((item: Course) => (
           <li key={data.education.indexOf(item)} className="pb-3">
@@ -30,19 +36,20 @@ const Education = ({ language }: Props) => {
             </p>
           </li>
         ))}
-      </ul>
+      </ul>*/
     );
   };
-
-  return (
-    <div id="education">
+/*
       <TextHolder
         headingValue={language === "english" ? "Education" : "Edukacja"}
         textboxValue={getEducationMainText()}
       />
-      <Certificates language={language} />
+      */
+
+/*  return (
+    <div id="education ">
+      <Carousel />
     </div>
-  );
-};
+  );*/
 
 export default Education;
